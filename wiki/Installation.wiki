@@ -1,0 +1,5 @@
+#summary How to install phpMyReservation
+
+=Installation=
+
+Installation instructions will be available as soon as phpMyReservation is available for download.
