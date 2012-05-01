@@ -6,7 +6,7 @@ Before you start, read the [http://code.google.com/p/phpmyreservation/#Requireme
 
 ==Create MySQL tables==
 
-It is a good idea to backup your database first.
+It is a good idea to backup your database first..
 
 *1)* Download [http://www.olejon.net/code/phpmyreservation/db/phpmyreservation.sql this SQL file]
 
