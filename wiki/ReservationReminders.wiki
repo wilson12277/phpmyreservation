@@ -1,0 +1,39 @@
+#summary How to set up reservation reminders
+
+==Reservation reminders==
+
+If you choose to enable reservation reminders in config.php, read the following carefully to make it work.
+
+Reservation reminders will be sent by email to those who have reservations the current day and have enabled reservation reminders in the control panel. The file that sends out reservation reminders is reminder.php, and the idea is to run the script daily (early in the morning).
+
+There are different ways to to this, depending on operating system etc.
+
+==Linux==
+
+On Linux we use cron to schedule events.
+
+----
+
+*If you have access to the command line on the web server, you can do this:*
+
+*1)* Log in to the command line on the web server
+
+*2)* Run this command:
+
+<font color="green"><pre> crontab -e</pre></font>
+
+*3)* Add this line
+
+<font color="green"><pre> 0 6 * * * php /full/path/to/phpmyreservation/reminder.php</pre></font>
+
+This will run the script daily, at 06:00. Make sure that you use the correct path.
+
+*4)* Save
+
+----
+
+If you don't have access to the command line, your web host may have a control panel or similar where you can add scheduled events. Another alternative is to set up another computer to access the reminder.php script daily (over HTTP).
+
+----
+
+There are several reasons why this may not work. For example your web server may be unable to send emails (depending on your web host provider), or maybe it only sends out emails from email addresses that is handled by domains it's running. So if you're running phpMyReservation on domain.com, you should edit config.php to use whatever@domain.com as sender for reservation reminders.
