@@ -35,3 +35,9 @@ If you don't have access to the command line, your web host provider may have a 
 ==It doesn't work==
 
 There are several reasons why this may not work. Your web server may be unable to send emails (depending on your web host provider). If you're running phpMyReservation on domain.com, you should edit config.php to use whatever@domain.com as sender for reservation reminders, or else it may not work (rejected or marked as spam).
+
+----
+
+I appreciate feedback. If you have any problems, questions or something you want to say, please contact me.
+
+Email: mail(at)olejon(dot)net
