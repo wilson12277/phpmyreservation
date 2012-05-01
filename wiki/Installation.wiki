@@ -20,11 +20,13 @@ It is a good idea to backup your database first.
 
 *3)* Move the phpmyreservation folder to where it can be reached through your web server
 
-*4)* Open it in a web browser. If you have done everything correcty, you should get see the login page
+*4)* If you chose to enable reservation reminders in config.php, [ReservationReminders read this] to make it work
 
-*5)* Create a new user. The first created user will get admin rights
+*5)* Open phpMyReservation in a web browser. If you have done everything correcty, you should get see the login page
 
-*6)* Set the price in the control panel (just set to 0 if usage is free)
+*6)* Create a new user. The first created user will get admin rights
+
+*7)* Set the price in the control panel (just set to 0 if usage is free)
 
 ----
 
