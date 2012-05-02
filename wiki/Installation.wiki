@@ -22,7 +22,7 @@ It is a good idea to backup your database first.
 
 *4)* If you chose to enable reservation reminders in config.php, [ReservationReminders read this] to make it work
 
-*5)* Open phpMyReservation in a web browser. If you have done everything correcty, you should get see the login page
+*5)* Open phpMyReservation in a web browser. If you have done everything correcty, you should see the login page
 
 *6)* Create a new user. The first created user will get admin rights
 
