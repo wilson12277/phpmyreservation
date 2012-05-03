@@ -4,7 +4,7 @@
 
 If you choose to enable reservation reminders in config.php, read the following carefully to make it work.
 
-Reservation reminders will be sent by email to those who have reservations the current day and have enabled reservation reminders in the control panel. The script that sends out reservation reminders is reminder.php, and the idea is to run the script daily (early in the morning).
+Reservation reminders will be sent by email to those who have reservations the current day and have enabled reservation reminders in the control panel. The script that sends out reservation reminders is reminders.php, and the idea is to run the script daily (early in the morning).
 
 There are different ways to to this, depending on operating system etc.
 
@@ -22,7 +22,7 @@ On Linux we use cron to schedule events.
 
 *3)* Add this line
 
-<font color="green"><pre> 0 6 * * * php /full/path/to/phpmyreservation/reminder.php</pre></font>
+<font color="green"><pre> 0 6 * * * php /full/path/to/phpmyreservation/reminders.php</pre></font>
 
 This will run the script daily, at 06:00. Make sure that you use the correct path.
 
@@ -30,7 +30,7 @@ This will run the script daily, at 06:00. Make sure that you use the correct pat
 
 *If you don't have access to the command line:*
 
-If you don't have access to the command line, your web host provider may have a control panel or similar where you can add scheduled events. Another alternative is to set up another computer to access the reminder.php script daily (over HTTP).
+If you don't have access to the command line, your web host provider may have a control panel or similar where you can add scheduled events. Another alternative is to set up another computer to access the reminders.php script daily (over HTTP).
 
 ==If it doesn't work==
 
