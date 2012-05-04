@@ -14,7 +14,7 @@ It is a good idea to backup your database first.
 
 ==Install phpMyReservation==
 
-*1)* Download and extract phpMyReservation
+*1)* Download and extract phpmyreservation-x-x.tar.bz2
 
 *2)* Edit config.php
 
