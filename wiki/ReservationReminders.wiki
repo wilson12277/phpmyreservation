@@ -8,7 +8,7 @@ Reservation reminders will be sent by email to those who have reservations the c
 
 There are different ways to to this, depending on operating system etc.
 
-*If you have access to the command line on the web server and the web server is running Linux (most likely), you can do this:*
+*If you have access to the command line on the web server and the web server is running Linux (which it most likely does), you can do this:*
 
 *1)* Log in to the command line on the web server
 
