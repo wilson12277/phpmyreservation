@@ -30,11 +30,17 @@ This will run the script daily, at 06:00. Make sure that you use the correct pat
 
 *If you don't have access to the command line:*
 
-If you don't have access to the command line, your web host provider may have a control panel or similar where you can add scheduled events. Another alternative is to set up another computer to access the reminders.php script daily (over HTTP).
+If you don't have access to the command line, your web host provider may have a control panel or similar where you can add scheduled events.
+
+If you have another computer/server that is running 24/7, you can set it up to run the reminders.php script daily over HTTP (for example using cron & cURL).
+
+To run the script over HTTP you must supply the code that you set in config.php (to avoid that everyone is able to run the script). You must run it like this:
+
+http://your.server/phpmyreservation/reminders.php?code=CODE
 
 ==If it doesn't work==
 
-There are several reasons why this may not work. Your web server may be unable to send emails (depending on your web host provider). If you're running phpMyReservation on domain.com, you should edit config.php to use whatever@domain.com as sender for reservation reminders, or else it may not work (rejected or marked as spam).
+There are several reasons why this may not work. Your web server may be unable to send emails (depending on your web host provider). If you're running phpMyReservation on domain.com, you should edit config.php to use whatever@domain.com (an email address that you own) as sender for reservation reminders, or else it may not work (rejected or marked as spam).
 
 ----
 
