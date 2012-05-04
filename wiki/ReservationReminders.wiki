@@ -8,17 +8,17 @@ Reservation reminders will be sent by email to those who have reservations the c
 
 There are different ways to to this, depending on operating system etc.
 
-==Linux==
-
-On Linux we use cron to schedule events.
-
-*If you have access to the command line on the web server, you can do this:*
+*If you have access to the command line on the web server and the web server is running Linux (most likely), you can do this:*
 
 *1)* Log in to the command line on the web server
 
 *2)* Run this command:
 
-<font color="green"><pre> crontab -e</pre></font>
+<font color="green">
+<pre>
+ export EDITOR=nano
+ crontab -e</pre>
+</font>
 
 *3)* Add this line
 
@@ -26,7 +26,7 @@ On Linux we use cron to schedule events.
 
 This will run the script daily, at 06:00. Make sure that you use the correct path.
 
-*4)* Save
+*4)* Save with Ctrl+O and then return, exit with Ctrl+X
 
 *If you don't have access to the command line:*
 
