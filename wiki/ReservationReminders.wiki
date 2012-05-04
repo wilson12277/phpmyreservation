@@ -36,7 +36,7 @@ If you have another computer/server that is running 24/7, you can set it up to r
 
 To run the script over HTTP you must supply the code that you set in config.php (to avoid that everyone is able to run the script). You must run it like this:
 
-http://your.server/phpmyreservation/reminders.php?code=CODE
+<font color="green"><pre> http://your.server/phpmyreservation/reminders.php?code=CODE</pre></font>
 
 ==If it doesn't work==
 
