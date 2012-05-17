@@ -8,5 +8,3 @@
 ----
 
 [http://www.olejon.net/code/phpmyreservation/?how_to_install How to install]
-
-----
