@@ -27,9 +27,3 @@ It is a good idea to backup your database first.
 *6)* Create a new user. The first created user will get admin rights
 
 *7)* Set the price per reservation in the control panel (just set to 0 if usage is free)
-
-----
-
-I appreciate feedback. If you have any problems, questions or something you want to say, please contact me.
-
-Email: mail(at)olejon(dot)net
